@@ -1,0 +1,19 @@
+{
+    "name": "go-va-366/scripts",
+    "description": "PHP scripts for GoVa",
+    "authors": [
+        {
+            "name": "Alex Culango",
+            "email": "alex.culango@go-va.com.au"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"GoVa\\Scripts\\Src\\": "src/"}
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.0",
+        "aws/aws-sdk-php": "^3.79",
+        "vlucas/phpdotenv": "^2.5",
+        "google/apiclient": "^2.0"
+    }
+}
